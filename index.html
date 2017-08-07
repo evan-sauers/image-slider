@@ -9,14 +9,17 @@
     <body>
         
         <div id="images">
-            <img src="images/1.jpg">
-            <img src="images/2.jpg">
-            <img src="images/3.jpg">
-            <img src="images/4.jpg">
+            <img id="1" src="images/1.jpg">
+            <img id="2" src="images/2.jpg">
+            <img id="3" src="images/3.jpg">
+            <img id="4" src="images/4.jpg">
         </div>
         
-            <a href="#" class="back" >Back</a>
-            <a href="#" class="next">Next</a>
+            <a href="#" class="back" onclick="back(); return false;">Back</a>
+            <a href="#" class="next" onclick="next(); return false;">Next</a>
         
+    <script src="js/jquery.js"></script>    
+    <script src="js/slider.js"></script>    
+
     </body>
 </html>
